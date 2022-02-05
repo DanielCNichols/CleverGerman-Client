@@ -126,20 +126,20 @@
 }
 
 .progress {
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 
 .progress h2 {
     font-size: 32px;
-    margin-top: 100px;
-    margin-bottom: 20px;
+    /* margin-top: 100px; */
+    margin-bottom: 100px;
 }
 
 .twoPiece_dashboard {
     padding: 20px;
     left: 380px;
-    width: 1400px;
+    width: 75%;
     display: flex;
     position: absolute;
 }
@@ -255,6 +255,7 @@
     
     .progress {
         /* background-color: purple; */
+        width: 80%;
         text-align: center;
         margin-left: auto;
         margin-right: auto;

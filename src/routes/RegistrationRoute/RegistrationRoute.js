@@ -6,7 +6,7 @@ import './Reg.css'
 class RegistrationRoute extends Component {
   static defaultProps = {
     history: {
-      push: () => {},
+      push: () => { },
     },
   }
 
@@ -33,6 +33,11 @@ class RegistrationRoute extends Component {
             <div>
               <h1>Learn <span id='german' onClick={this.handleGermanTitle}>{this.state.German ? <span>Deutsch</span> : <span>German</span>}</span> from the best.</h1>
               <p id="spaced">Practice learning a language with the spaced reptition revision technique.</p>
+              <div id="demo-credentials">
+                <p id="spaced">Demo this app using:</p>
+                <p id="spaced">Username: daniel61</p>
+                <p id="spaced">Password: Pass123!</p>
+              </div>
             </div>
             <div className='sign_up'>
               <h2>Sign up</h2>
@@ -41,7 +46,7 @@ class RegistrationRoute extends Component {
               />
             </div>
           </div>
-          <img id='flag' src={germanFlag} alt='german flag'/>
+          <img id='flag' src={germanFlag} alt='german flag' />
         </div>
       </section>
     );

@@ -21,6 +21,9 @@ class LoginRoute extends Component {
       <section className='banner_login'>
         <div className='Overlay_login'>
           <h2>Login</h2>
+          <p>Demo</p>
+          <p>Username: daniel61</p>
+          <p>password: Pass123!</p>
           <LoginForm
             onLoginSuccess={this.handleLoginSuccess}
           />

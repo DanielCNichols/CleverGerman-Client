@@ -25,6 +25,10 @@
     justify-content: space-between;
 }
 
+#demo-credentials {
+    margin-top: 20px;
+}
+
 #flag {
     /* background-color: yellow; */
     position: fixed;
