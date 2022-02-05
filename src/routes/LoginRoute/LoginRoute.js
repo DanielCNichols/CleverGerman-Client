@@ -23,7 +23,7 @@ class LoginRoute extends Component {
           <h2>Login</h2>
           <p>Demo</p>
           <p>Username: daniel61</p>
-          <p>password: Pass123!</p>
+          <p>password: Password123!</p>
           <LoginForm
             onLoginSuccess={this.handleLoginSuccess}
           />

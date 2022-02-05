@@ -36,7 +36,7 @@ class RegistrationRoute extends Component {
               <div id="demo-credentials">
                 <p id="spaced">Demo this app using:</p>
                 <p id="spaced">Username: daniel61</p>
-                <p id="spaced">Password: Pass123!</p>
+                <p id="spaced">Password: Password123!</p>
               </div>
             </div>
             <div className='sign_up'>
